@@ -60,6 +60,36 @@ function createText6(event) {
   document.getElementById("timeDisplay").innerText = textValue;
 }
 
+//VENUE NAME
+console.log("document.getElementById('venueEntry')", document.getElementById("venueEntry"))
+document.getElementById("venueEntry").addEventListener("keyup", createText7);
+var nameString = ""
+function createText7(event) {
+  console.log("== createText7 ==")
+  let textValue = document.getElementById("venueEntry").value;
+  document.getElementById("venueDisplay").innerText = textValue;
+}
+
+//ADDRESS
+console.log("document.getElementById('addressEntry')", document.getElementById("addressEntry"))
+document.getElementById("addressEntry").addEventListener("keyup", createText8);
+var nameString = ""
+function createText8(event) {
+  console.log("== createText8 ==")
+  let textValue = document.getElementById("addressEntry").value;
+  document.getElementById("addressDisplay").innerText = textValue;
+}
+
+//CITY, STATE
+console.log("document.getElementById('cityEntry')", document.getElementById("cityEntry"))
+document.getElementById("cityEntry").addEventListener("keyup", createText9);
+var nameString = ""
+function createText9(event) {
+  console.log("== createText9 ==")
+  let textValue = document.getElementById("cityEntry").value;
+  document.getElementById("cityDisplay").innerText = textValue;
+}
+
 // document.getElementById("fnameEntry").addEventListener("onclick", createText);
 // let divBox = document.getElementById("invitation");
 // let newDiv = document.createElement("invitation2");
