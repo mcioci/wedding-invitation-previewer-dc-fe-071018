@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Wedding Invitation Planner">
+    <meta name="keywords" content="wedding,free,invitation,planner,maker">
+    <meta name="author" content="Meghan Cioci">
+    <title>Custom Wedding Invitation Designer</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="bg">
+      <img src="images/bg.jpg">
+    </div>
+    <header>
+    <h1>Wedding Invitation Designer</h1>
+  </header>
+  <nav>
+    Design Your Own
+    Pricing
+    Reviews
+    FAQ
+    Contact
+  </nav>
+    <div class="column">
+      <h2>Your Information</h2>
+      <form>
+        <h4>Person One</h4>
+        <input type="text" id="fnameEntry" placeholder="First Name" class="rounded" required><br><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" class="rounded"><br>
+        <h4>Person Two</h4>
+        <input type="text" name="firstname" placeholder="First Name" class="rounded" required><br><br>
+        <input type="text" name="lastname" placeholder="Last Name" class="rounded"><br>
+        <h4>When</h4>
+        <input type="text" name="date" placeholder="Date" class="rounded" required><br><br>
+        <input type="text" name="date" placeholder="Time" class="rounded"><br>
+        <h4>Venue Information</h4>
+        <input type="text" name="venue" placeholder="Name" class="rounded" required><br><br>
+        <input type="text" name="Address" placeholder="Address" class="rounded"><br><br>
+        <input type="text" name="city" placeholder="City, State" class="rounded">
+      </form>
+    </div>
+    <div class="column">
+      <h2>Preview</h2>
+      <nav>
+        Design 1
+        Design 2
+        Design 3
+      </nav>
+      <div id="invitation">
+        <p> Please join</p>
+        <p id="fnameDisplay"></p>
+        <p>and</p>
+        <p id="lnameDisplay"></p>
+        <p>on their special day</p>
+      </div>
+    </div>
+    <footer>
+      &copy BeautifulDesigns
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
