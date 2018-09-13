@@ -15,4 +15,3 @@ divBox.appendChild(newDiv);
 
 newDiv.setAttribute("id", "newDiv");
 newDiv.style.border = "2px solid black";
-newDiv.background-image =
