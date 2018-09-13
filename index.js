@@ -51,13 +51,13 @@ function createText5(event) {
 }
 
 //TIME
-console.log("document.getElementById('fname2Entry')", document.getElementById("fname2Entry"))
-document.getElementById("fname2Entry").addEventListener("keyup", createText3);
+console.log("document.getElementById('timeEntry')", document.getElementById("timeEntry"))
+document.getElementById("timeEntry").addEventListener("keyup", createText6);
 var nameString = ""
-function createText3(event) {
-  console.log("== createText3 ==")
-  let textValue = document.getElementById("fname2Entry").value;
-  document.getElementById("fname2Display").innerText = textValue;
+function createText6(event) {
+  console.log("== createText6 ==")
+  let textValue = document.getElementById("timeEntry").value;
+  document.getElementById("timeDisplay").innerText = textValue;
 }
 
 // document.getElementById("fnameEntry").addEventListener("onclick", createText);
