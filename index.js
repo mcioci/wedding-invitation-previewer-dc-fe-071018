@@ -40,6 +40,26 @@ function createText4(event) {
   document.getElementById("lname2Display").innerText = textValue;
 }
 
+//DATE
+console.log("document.getElementById('dateEntry')", document.getElementById("dateEntry"))
+document.getElementById("dateEntry").addEventListener("keyup", createText5);
+var nameString = ""
+function createText5(event) {
+  console.log("== createText5 ==")
+  let textValue = document.getElementById("dateEntry").value;
+  document.getElementById("dateDisplay").innerText = textValue;
+}
+
+//TIME
+console.log("document.getElementById('fname2Entry')", document.getElementById("fname2Entry"))
+document.getElementById("fname2Entry").addEventListener("keyup", createText3);
+var nameString = ""
+function createText3(event) {
+  console.log("== createText3 ==")
+  let textValue = document.getElementById("fname2Entry").value;
+  document.getElementById("fname2Display").innerText = textValue;
+}
+
 // document.getElementById("fnameEntry").addEventListener("onclick", createText);
 // let divBox = document.getElementById("invitation");
 // let newDiv = document.createElement("invitation2");
