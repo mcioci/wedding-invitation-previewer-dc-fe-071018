@@ -11,13 +11,13 @@ function createText(event) {
 }
 
 //LAST NAME FIRST PERSON
-console.log("document.getElementById('fnameEntry')", document.getElementById("fnameEntry"))
-document.getElementById("fnameEntry").addEventListener("keyup", createText);
+console.log("document.getElementById('lnameEntry')", document.getElementById("lnameEntry"))
+document.getElementById("lnameEntry").addEventListener("keyup", createText);
 var nameString = ""
 function createText(event) {
   console.log("== createText ==")
-  let textValue = document.getElementById("fnameEntry").value;
-  document.getElementById("fnameDisplay").innerText = textValue;
+  let textValue = document.getElementById("lnameEntry").value;
+  document.getElementById("lnameDisplay").innerText = textValue;
 }
 
 // document.getElementById("fnameEntry").addEventListener("onclick", createText);
