@@ -1,5 +1,5 @@
 console.log("document.getElementById('fnameEntry')", document.getElementById("fnameEntry"))
-document.getElementById("fnameEntry").addEventListener("keyup", createText);
+document.getElementById("fnameEntry").addEventListener("keydown", createText);
 var nameString = ""
 function createText(event) {
   console.log("== createText ==")
