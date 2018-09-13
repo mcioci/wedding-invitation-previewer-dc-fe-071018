@@ -10,11 +10,11 @@ function createText(event) {
 }
 
 
-document.getElementById("fnameEntry").addEventListener("onclick", createText);
-let divBox = document.getElementById("invitation");
-let newDiv = document.createElement("invitation2");
-divBox.appendChild(newDiv);
-
-newDiv.setAttribute("id", "newDiv");
-newDiv.style.border = "2px solid black";
-newDiv.background-color = "white";
+// document.getElementById("fnameEntry").addEventListener("onclick", createText);
+// let divBox = document.getElementById("invitation");
+// let newDiv = document.createElement("invitation2");
+// divBox.appendChild(newDiv);
+// 
+// newDiv.setAttribute("id", "newDiv");
+// newDiv.style.border = "2px solid black";
+// newDiv.background-color = "white";
