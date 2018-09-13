@@ -1,5 +1,5 @@
 console.log("document.getElementById('fnameEntry')", document.getElementById("fnameEntry"))
-document.getElementById("fnameEntry").addEventListener("keydown", createText);
+document.getElementById("fnameEntry").addEventListener("keyup", createText);
 var nameString = ""
 function createText(event) {
   console.log("== createText ==")
@@ -14,7 +14,7 @@ function createText(event) {
 // let divBox = document.getElementById("invitation");
 // let newDiv = document.createElement("invitation2");
 // divBox.appendChild(newDiv);
-// 
+//
 // newDiv.setAttribute("id", "newDiv");
 // newDiv.style.border = "2px solid black";
 // newDiv.background-color = "white";
