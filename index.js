@@ -3,8 +3,8 @@ document.getElementById("fnameEntry").addEventListener("keyup", createText);
 var nameString = ""
 function createText(event) {
   console.log("== createText ==")
-  console.log("event.which:", event.which);
-  console.log(String.fromCharCode(event.which));
+  // console.log("event.which:", event.which);
+  // console.log(String.fromCharCode(event.which));
   let textValue = document.getElementById("fnameEntry").value;
   document.getElementById("fnameDisplay").innerText = textValue;
 }
