@@ -12,10 +12,10 @@ function createText(event) {
 
 //LAST NAME FIRST PERSON
 console.log("document.getElementById('lnameEntry')", document.getElementById("lnameEntry"))
-document.getElementById("lnameEntry").addEventListener("keyup", createText);
+document.getElementById("lnameEntry").addEventListener("keyup", createText2);
 var nameString = ""
-function createText(event) {
-  console.log("== createText ==")
+function createText2(event) {
+  console.log("== createText2 ==")
   let textValue = document.getElementById("lnameEntry").value;
   document.getElementById("lnameDisplay").innerText = textValue;
 }
